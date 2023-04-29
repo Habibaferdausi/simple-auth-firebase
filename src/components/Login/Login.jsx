@@ -1,8 +1,6 @@
 import React from "react";
 
 const Login = () => {
-
-  
   return (
     <div>
       <div className="container">
@@ -11,12 +9,12 @@ const Login = () => {
             <div className="border w-100 m-auto text-center p-5">
               <form action="">
                 <input
-                  className="email p-3 m-2"
+                  className="email p-3 m-2 bg-white"
                   type="email"
                   placeholder="enter your email"
                 />
                 <input
-                  className="password p-3 m-2"
+                  className="password p-3 m-2 bg-white"
                   type="password"
                   placeholder="enter your password"
                 />
