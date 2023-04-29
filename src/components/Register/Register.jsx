@@ -49,7 +49,7 @@ const Register = () => {
               <p className="text-danger">{error}</p>
               <form action="">
                 <input
-                  className="email p-3 m-2"
+                  className="email p-3 m-2 bg-white"
                   type="text"
                   placeholder="enter your Name"
                   required
