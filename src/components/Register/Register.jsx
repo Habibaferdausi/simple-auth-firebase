@@ -56,7 +56,7 @@ const Register = () => {
                 />
                 <input
                   onChange={(e) => setEmail(e.target.value)}
-                  className="email p-3 m-2"
+                  className="email p-3 m-2 bg-white"
                   type="email"
                   placeholder="enter your email"
                 />
@@ -64,7 +64,7 @@ const Register = () => {
                   {control ? (
                     <input
                       onChange={(e) => setPassword(e.target.value)}
-                      className="password p-3 m-2"
+                      className="password p-3 m-2 bg-white"
                       type="text"
                       value={password}
                       placeholder="enter your password"
@@ -72,7 +72,7 @@ const Register = () => {
                   ) : (
                     <input
                       onChange={(e) => setPassword(e.target.value)}
-                      className="password p-3 m-2"
+                      className="password p-3 m-2 bg-white"
                       type="password"
                       placeholder="enter your password"
                     />
